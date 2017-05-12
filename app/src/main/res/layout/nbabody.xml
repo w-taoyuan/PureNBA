@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/saicheng"
+        android:layout_marginLeft="75dp"
+        android:layout_width="0dp"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/feeds_match16_blue1"
+        android:text="赛程"
+        android:drawablePadding="5dp"
+        android:textColor="#2979fe"
+        />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#edebeb"
+        />
+
+    <TextView
+        android:id="@+id/jihousai"
+        android:layout_marginLeft="75dp"
+        android:layout_width="0dp"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/feeds_rank16_blue1"
+        android:text="季后赛"
+        android:drawablePadding="5dp"
+        android:padding="5dp"
+        android:textColor="#2979fe"
+        />
+
+</LinearLayout>

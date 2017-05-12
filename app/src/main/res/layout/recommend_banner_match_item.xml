@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="5dp">
+
+    <ViewFlipper android:id="@+id/recommend_banner_match_flipper"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:inAnimation="@anim/push_up_in"
+                 android:outAnimation="@anim/push_up_out"
+                 android:flipInterval="2000" >
+    </ViewFlipper>
+
+</LinearLayout>

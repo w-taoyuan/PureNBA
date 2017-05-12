@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d5d6d6">
+    <ImageButton
+        android:id="@+id/close_btn"
+        android:padding="9.0dip"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:src="@drawable/login_close"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="220.0dip"
+        android:layout_marginTop="52.0dip"
+        android:src="@drawable/splash_log"
+        android:scaleType="fitCenter"
+        android:contentDescription="@null" />
+    <RelativeLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/Sina_quick"
+        android:background="#ff4ea1e8"
+        android:visibility="visible"
+        android:layout_width="250.0dip"
+        android:layout_height="38.0dip"
+        android:layout_marginBottom="126.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/Sina_logo"
+            android:layout_width="@dimen/login_quick_icon_size"
+            android:layout_height="@dimen/login_quick_icon_size"
+            android:layout_marginLeft="@dimen/login_quick_margin"
+            android:layout_marginRight="@dimen/login_quick_margin"
+            android:src="@drawable/sina"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null" />
+        <TextView
+            android:textSize="@dimen/app_text_size_30px"
+            android:textColor="@android:color/white"
+            android:id="@+id/xin_lan_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 新浪微博"
+            android:layout_toRightOf="@id/Sina_logo"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/wx_quick"
+        android:background="#ff9ccc65"
+        android:visibility="visible"
+        android:layout_width="250.0dip"
+        android:layout_height="38.0dip"
+        android:layout_marginBottom="66.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/wx_logo"
+            android:layout_width="@dimen/login_quick_icon_size"
+            android:layout_height="@dimen/login_quick_icon_size"
+            android:layout_marginLeft="@dimen/login_quick_margin"
+            android:layout_marginRight="@dimen/login_quick_margin"
+            android:src="@drawable/login_wx"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null" />
+        <TextView
+            android:textSize="@dimen/app_text_size_30px"
+            android:textColor="@android:color/white"
+            android:id="@+id/wx_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信登录"
+            android:layout_toRightOf="@id/wx_logo"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

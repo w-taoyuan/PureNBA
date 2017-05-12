@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#e1dfdf">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <ImageView
+                android:id="@+id/back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nav_back_black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账号"
+                android:textColor="#4a4949"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未登录"
+                android:textColor="#bebcbc"
+                android:drawableRight="@drawable/me_rightarrow_icon"
+                android:layout_alignParentRight="true"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="投电视"
+                android:textColor="#4a4949"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/me_rightarrow_icon"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自动播放"
+                android:textColor="#4a4949"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/me_rightarrow_icon"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+
+        <!--分割线-->
+        <include layout="@layout/view_color"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="推送设置"
+                android:textColor="#4a4949"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/me_rightarrow_icon"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+
+        <!--分割线-->
+        <include layout="@layout/view_color"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="清除缓存"
+                android:textColor="#4a4949"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/me_rightarrow_icon"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="帮助与反馈"
+                android:textColor="#4a4949"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/me_rightarrow_icon"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+        <!--分割线-->
+        <include layout="@layout/view_color"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="版本"
+                android:textColor="#4a4949"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/me_rightarrow_icon"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+</LinearLayout>

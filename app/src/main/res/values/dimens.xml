@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!--新添加的-->
+    <dimen name="app_text_size_30px">15.0dip</dimen>
+
+    <dimen name="login_quick_icon_size">24.0dip</dimen>
+
+    <dimen name="login_quick_margin">10.0dip</dimen>
+</resources>

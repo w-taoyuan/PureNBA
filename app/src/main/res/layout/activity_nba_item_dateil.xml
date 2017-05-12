@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_btn"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="资讯详情"
+        />
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/share"/>
+</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <WebView
+            android:id="@+id/datil_web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#f2f0f0">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="我来聊两句....."
+            android:paddingLeft="10dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/abc_popup_background_mtrl_mult"
+            android:layout_height="60dp"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="40dp"
+            android:text="234"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="#303f9e"
+            android:drawableLeft="@drawable/write"
+            android:drawablePadding="8dp"
+            />
+    </LinearLayout>
+</LinearLayout>

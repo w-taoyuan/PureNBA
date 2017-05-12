@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="140dp"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/all_head"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#EFF0F3"
+        android:paddingLeft="5dp"
+        android:text="篮球  足球"
+        android:textSize="18sp"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+
+       >
+
+
+
+        <RelativeLayout
+            android:id="@+id/zuobian"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="35dp">
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:text="19:00"/>
+
+            <ImageView
+                android:id="@+id/lead_icon"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignBottom="@id/time"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@id/time"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/time"
+                android:layout_below="@id/time"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:ellipsize="none"
+                android:maxEms="7"
+                android:singleLine="true"
+                android:text="jhdhgkhk"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/rl_all"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+
+            android:layout_marginLeft="100dp">
+
+            <!--<RelativeLayout-->
+            <!---->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_centerVertical="true">-->
+
+
+
+
+            <ImageView
+                android:id="@+id/head_image"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/item_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/head_image"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/head_image"
+                android:ellipsize="end"
+                android:maxEms="7"
+                android:singleLine="true"
+                android:text="阿森纳"
+
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:id="@+id/head_iv1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@id/head_image"
+                android:layout_below="@id/head_image"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/item_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/head_iv1"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/head_iv1"
+                android:ellipsize="end"
+                android:maxEms="7"
+                android:singleLine="true"
+                android:text="莱斯特"
+                android:textSize="18sp"/>
+
+
+
+
+
+            <TextView
+                android:id="@+id/heng_image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"
+                android:text="hhh11111"/>
+
+            <TextView
+                android:id="@+id/heng_image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/heng_image1"
+                android:paddingTop="20dp"
+                android:layout_below="@id/heng_image1"
+                android:text="hhh444324234"/>
+
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/head_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            android:text="腾讯体育"
+            android:textSize="14sp"/>
+
+
+
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#26312f2f"/>
+
+</LinearLayout>

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:orientation="vertical"
+                android:background="@drawable/me_head_bg1080">
+
+                <LinearLayout
+                    android:id="@+id/login_ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:clickable="true">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/user_icon"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/me_visitor_default"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="登录可享受更多服务"
+                        android:textSize="22sp"
+                        android:textColor="@android:color/white"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_marginTop="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#2c89f7"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/diamonds_ll"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/me_diamond_white_icon"/>
+
+                        <include layout="@layout/textview_number"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/k_ll"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/me_kcoin_white_icon"/>
+
+                        <include layout="@layout/textview_number"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/list_ll"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/me_ticket_white_icon"/>
+
+                        <include layout="@layout/textview_number"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rmb_ll"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/me_giftcard_icon"/>
+
+                        <include layout="@layout/textview_number"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@android:color/white">
+
+                <LinearLayout
+                    android:id="@+id/vip_ll"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/vip_icon_circle"
+                        android:id="@+id/imageView2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="会员中心"
+                        android:textColor="#353537"
+                        android:layout_marginTop="5dp"
+                        android:paddingBottom="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/games_ll"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/me_quize_round_icon"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="游戏竞猜"
+                        android:textColor="#353537"
+                        android:layout_marginTop="5dp"
+                        android:paddingBottom="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hot_equipment_ll"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/me_equipment_round_icon"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="装备热卖"
+                        android:textColor="#353537"
+                        android:layout_marginTop="5dp"
+                        android:paddingBottom="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mall_points_ll"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/me_shop_round_icon"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="积分商城"
+                        android:textColor="#353537"
+                        android:layout_marginTop="5dp"
+                        android:paddingBottom="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="#efeded"
+                android:id="@+id/view"/>
+
+            <RelativeLayout
+                android:id="@+id/my_community_rl"
+                style="@style/RelativeLayout_width_height_background_style"
+                >
+            <LinearLayout
+                style="@style/LinearLayout_width_height_orientation_style"
+                >
+
+                    <ImageView
+                        style="@style/ImageView_width_height_style"
+                        android:src="@drawable/me_community"
+                        android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    style="@style/TextView_width_height_textSize_textColor_style"
+                    android:layout_marginLeft="10dp"
+                    android:text="我的社区"
+                    />
+
+            </LinearLayout>
+                <include layout="@layout/rightarrow_icon"/>
+            </RelativeLayout>
+
+            <!--分割线-->
+            <include layout="@layout/view_background_color"/>
+
+            <RelativeLayout
+                android:id="@+id/my_attention_rl"
+                style="@style/RelativeLayout_width_height_background_style">
+
+                <LinearLayout
+                    style="@style/LinearLayout_width_height_orientation_style">
+
+                    <ImageView
+                        style="@style/ImageView_width_height_style"
+                        android:src="@drawable/me_attention_icon"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        style="@style/TextView_width_height_textSize_textColor_style"
+                        android:layout_marginLeft="10dp"
+                        android:text="我的关注"/>
+
+                </LinearLayout>
+
+                <include layout="@layout/rightarrow_icon"/>
+            </RelativeLayout>
+
+            <!--分割线-->
+            <include layout="@layout/view_background_color"/>
+
+            <RelativeLayout
+                android:id="@+id/my_guess_rl"
+                style="@style/RelativeLayout_width_height_background_style">
+
+                <LinearLayout
+                    style="@style/LinearLayout_width_height_orientation_style">
+
+                    <ImageView
+                        style="@style/ImageView_width_height_style"
+                        android:src="@drawable/me_guess"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        style="@style/TextView_width_height_textSize_textColor_style"
+                        android:layout_marginLeft="10dp"
+                        android:text="我的竞猜"
+                        />
+                </LinearLayout>
+
+                <include layout="@layout/rightarrow_icon"/>
+            </RelativeLayout>
+
+            <!--分割线-->
+            <include layout="@layout/view_background_color"/>
+
+            <RelativeLayout
+                android:id="@+id/system_message_rl"
+                style="@style/RelativeLayout_width_height_background_style">
+
+                <LinearLayout
+                    style="@style/LinearLayout_width_height_orientation_style">
+
+                    <ImageView
+                        style="@style/ImageView_width_height_style"
+                        android:src="@drawable/me_system_message"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        style="@style/TextView_width_height_textSize_textColor_style"
+                        android:text="系统消息"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+                <include layout="@layout/rightarrow_icon"/>
+            </RelativeLayout>
+
+            <!--分割线-->
+            <include layout="@layout/view_background_color"/>
+
+            <RelativeLayout
+                android:id="@+id/my_box_rl"
+                style="@style/RelativeLayout_width_height_background_style">
+
+                <LinearLayout
+                    style="@style/LinearLayout_width_height_orientation_style">
+
+                    <ImageView
+                        style="@style/ImageView_width_height_style"
+                        android:src="@drawable/me_box"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        style="@style/TextView_width_height_textSize_textColor_style"
+                        android:layout_marginLeft="10dp"
+                        android:text="我的包厢"/>
+                </LinearLayout>
+
+                <include layout="@layout/rightarrow_icon"/>
+            </RelativeLayout>
+
+            <!--分割线-->
+            <include layout="@layout/view_background_color"/>
+
+            <RelativeLayout
+                android:id="@+id/my_prize_rl"
+                style="@style/RelativeLayout_width_height_background_style">
+
+                <LinearLayout
+                    style="@style/LinearLayout_width_height_orientation_style">
+
+                    <ImageView
+                        style="@style/ImageView_width_height_style"
+                        android:src="@drawable/me_prize"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        style="@style/TextView_width_height_textSize_textColor_style"
+                        android:layout_marginLeft="10dp"
+                        android:text="我的奖品"/>
+                </LinearLayout>
+
+                <include layout="@layout/rightarrow_icon"/>
+            </RelativeLayout>
+
+            <!--分割线-->
+            <include layout="@layout/view_background_color"/>
+
+            <RelativeLayout
+                android:id="@+id/wonderful_collection_rl"
+                style="@style/RelativeLayout_width_height_background_style">
+
+                <LinearLayout
+                    style="@style/LinearLayout_width_height_orientation_style">
+
+                    <ImageView
+                        style="@style/ImageView_width_height_style"
+                        android:src="@drawable/me_wonderful_collection"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        style="@style/TextView_width_height_textSize_textColor_style"
+                        android:text="精彩收藏"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+                <include layout="@layout/rightarrow_icon"/>
+            </RelativeLayout>
+
+            <!--分割线-->
+            <include layout="@layout/view_background_color"/>
+
+            <RelativeLayout
+                android:id="@+id/tencent_exclusive_free_flow_rl"
+                style="@style/RelativeLayout_width_height_background_style">
+                <LinearLayout
+                    style="@style/LinearLayout_width_height_orientation_style">
+
+                    <ImageView
+                        style="@style/ImageView_width_height_style"
+                        android:src="@drawable/me_wonderful_collection"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        style="@style/TextView_width_height_textSize_textColor_style"
+                        android:text="腾讯专属免流"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+                <include layout="@layout/rightarrow_icon"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+        <!--顶部的设置和系统消息图标的布局-->
+        <TextView
+            android:id="@+id/setting_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textSize="20sp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:drawableLeft="@drawable/me_navbar_btn_set_icon"
+            android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/system_message_iv"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/me_navbar_btn_system_message_icon"
+        android:clickable="true"/>
+
+</FrameLayout>

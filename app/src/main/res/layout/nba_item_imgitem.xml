@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="180dp"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="你好吗"
+        android:textColor="#252424"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imge1"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:src="@drawable/btn_share_qq"
+            />
+
+        <ImageView
+            android:id="@+id/imge2"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:src="@drawable/btn_share_qq"
+            />
+
+        <ImageView
+            android:id="@+id/imge3"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:src="@drawable/btn_share_qq"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:id="@+id/head_item_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:text="马超"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/head_item_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/head_item_tv2"
+            android:text="马超"
+            android:textSize="14sp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

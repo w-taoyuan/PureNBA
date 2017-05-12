@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base m520it.com.purenba.application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--我的界面->我的社区、我的关注中的RelativeLayout等item的style-->
+    <style name="RelativeLayout_width_height_background_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <!--我的界面->我的社区、我的关注中的LinearLayout等item的style-->
+    <style name="LinearLayout_width_height_orientation_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!--我的界面->我的社区、我的关注中的ImageView等item的style-->
+    <style name="ImageView_width_height_style">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+
+    <!--我的界面->我的社区、我的关注中的TextView等item的style-->
+    <style name="TextView_width_height_textSize_textColor_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#333334</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+</resources>

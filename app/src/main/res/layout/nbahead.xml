@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="150dp"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lift"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/nba_head_img1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="3dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/btn_share_qq"/>
+
+            <TextView
+
+                android:id="@+id/nba_head_textlift"
+                android:layout_marginLeft="15dp"
+                android:layout_width="50dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nba_head_img1"
+                android:textSize="9sp"
+                android:textColor="#404040"
+                android:text="雷霆"
+                />
+
+            <TextView
+                android:id="@+id/nba_head_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="NBA季后赛"
+                android:textColor="#7a7878"/>
+
+            <TextView
+                android:id="@+id/nba_head_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:text="今08:00"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/nba_head_text4"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:background="@drawable/backgrand"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:text="预约"
+
+                android:textColor="#000"/>
+            <ImageView
+                android:id="@+id/nba_head_img2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="3dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/btn_share_qq"
+                />
+            <TextView
+                android:id="@+id/nba_head_textright"
+                android:layout_marginLeft="15dp"
+                android:layout_width="50dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/nba_head_img2"
+                android:layout_marginRight="15dp"
+                android:textSize="9sp"
+                android:textColor="#404040"
+                android:text="雷霆"
+                />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#edebeb"/>
+
+        <RelativeLayout
+            android:id="@+id/right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/nba_headr_img1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:padding="3dp"
+                android:src="@drawable/btn_share_qq"/>
+
+            <TextView
+                android:id="@+id/nba_headr_textlift"
+                android:layout_width="50dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nba_headr_img1"
+                android:layout_marginLeft="15dp"
+                android:textSize="9sp"
+                android:textColor="#404040"
+                android:text="雷霆"
+                />
+
+            <TextView
+                android:id="@+id/nba_headr_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="NBA季后赛"
+                android:textColor="#7a7878"/>
+
+            <TextView
+                android:id="@+id/nba_headr_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:text="今08:00"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/nba_headr_text4"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:background="@drawable/backgrand"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:text="预约"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/nba_headr_img2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:padding="3dp"
+                android:src="@drawable/btn_share_qq"/>
+
+            <TextView
+                android:id="@+id/nba_headr_textright"
+                android:layout_marginLeft="15dp"
+                android:layout_width="50dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/nba_headr_img2"
+                android:layout_marginRight="15dp"
+                android:textSize="9sp"
+                android:textColor="#404040"
+                android:text="雷霆"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="1dp"
+        android:background="#edebeb"/>
+    <include layout="@layout/nbabody"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="#d8d5d5"/>
+    </LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryLight">#333F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorBlueGren">#3e99fe</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGray">#888</color>
+    <color name="colorRed">#f00</color>
+    <color name="colorMain">#EA403C</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorLightGray">#eeeeeeee</color>
+
+
+    <!--添加的color-->
+    <color name="app_fg_color">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="list_item_selected_color">#0d000000</color>
+    <color name="list_item_normal_color">@android:color/transparent</color>
+
+    <color name="colordefault">#5B5B5B</color>
+
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@id/splash_layout"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/app_fg_color"
+              android:orientation="vertical">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:id="@+id/tencent_logo"
+        android:src="@drawable/splash_log"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="12.0"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/splash_tencent"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="5.0"/>
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/top_iv_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/recommend_top_iv"/>
+
+    <!--比赛已结束的内容-->
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/top_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:text="NBA五佳·沃尔劈扣老鹰巨塔 悍将反击飞扣"
+        android:textColor="#fff"
+        android:textSize="18sp"/>
+
+    <!--比赛还在进行的内容-->
+    <LinearLayout
+        android:id="@+id/living_match_info_ll"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#88444444"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff"
+            android:text="马刺"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ef2a27"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="45"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:background="@drawable/toplive_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:text="LIVE"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:text="第2节 00:00"
+                    android:paddingBottom="5dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ef2a27"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="47"/>
+        </LinearLayout>
+
+        <TextView
+            android:gravity="end"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff"
+            android:text="灰熊"/>
+    </LinearLayout>
+</RelativeLayout>
